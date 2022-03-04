@@ -1,0 +1,7 @@
+{
+    "run":{"background_cleaner.py": true},
+    "data_front":"data_base/front",
+    "data_side":"data_base/side",
+    "output_front":"output/front",
+    "output_side":"output/side"
+}
