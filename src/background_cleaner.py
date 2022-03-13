@@ -35,12 +35,12 @@ def clean_background(root_path,input_path,output_path):
     for file in list_files:
         
         image_in=os.path.join(path_input,file)
-        print(image_in)
+        
         if file.__contains__("jfif"):
             file=file.replace("jfif","jpg")
 
         image_out=os.path.join(path_output,file)
-        print(image_out)
+        
         change_bg.color_bg(image_in, 
                    colors = (255, 255, 255), 
                    output_image_name= image_out)
