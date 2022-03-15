@@ -127,14 +127,15 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
-<<<<<<< HEAD
-test.ipynb
-test.py
-
-# trained models
-pre_trained_model
-=======
 
 #pre trained models
 pre_trained_models/
->>>>>>> 5165d454fcc677b4720c017b6476064e70da2155
+pre_trained_model/
+
+#
+test.jpeg
+
+#
+pruebas/
+test.ipynb
+001.jpg
